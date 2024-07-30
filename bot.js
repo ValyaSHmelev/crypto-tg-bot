@@ -1,6 +1,6 @@
-require('dotenv').config()
-const { Telegraf, Markup } = require('telegraf');
-const axios = require('axios');
+import 'dotenv/config';
+import { Telegraf, Markup } from 'telegraf';
+import axios from 'axios';
 
 const bot = new Telegraf(process.env.TG_BOT_TOKEN);
 bot.telegram.setMyCommands([

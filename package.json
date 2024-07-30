@@ -1,6 +1,7 @@
 {
   "name": "crypto-tg-bot",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "nodemon bot.js",
     "start": "pm2 start bot.js --name 'telegram-bot'",
